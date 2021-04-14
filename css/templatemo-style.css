@@ -1,9 +1,13 @@
-
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: 300;
     background: #d6d3d3;
+    overflow-x: hidden;
 }
 
 a, button { transition: all 0.3s ease; }
