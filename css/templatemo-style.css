@@ -487,7 +487,11 @@ footer p { color: white; }
     font-weight: 600;
 }
 
-#google-map { height: 600px; }
+#google-map { 
+    background: url(/img/googlemaps.jpg);
+    height: 600px;
+    background-size: cover;
+}
 
 @media screen and (max-width: 1080px) {
     .tm-tab-link-li { width: 25%; }
