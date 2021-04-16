@@ -488,7 +488,7 @@ footer p { color: white; }
 }
 
 #google-map { 
-    background: url(/img/googlemaps.jpg);
+    background: url(img/googlemaps.jpg);
     height: 600px;
     background-size: cover;
 }
