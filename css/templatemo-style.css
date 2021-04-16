@@ -129,6 +129,7 @@ p:last-child { margin-bottom: 0; }
     background: url(../img/banner.jpg) center top no-repeat;    
     min-height: 720px;
     position: relative;
+    background-size: cover;
 }
 .tm-banner-row { 
     position: relative;
@@ -488,7 +489,7 @@ footer p { color: white; }
 }
 
 #google-map { 
-    background: url(img/googlemaps.jpg);
+    background: url(../img/banner2.jpg);
     height: 600px;
     background-size: cover;
 }
