@@ -17,10 +17,10 @@
       <body>
         <div class="tm-main-content" id="top">
             <div class="tm-top-bar-bg"></div>    
-            <div class="tm-top-bar" id="tm-top-bar">
+            <div class="tm-top-bar " id="tm-top-bar">
                 <div class="container">
                     <div class="row">
-                        <nav class="navbar navbar-expand-lg narbar-light">
+                        <nav class="navbar navbar-expand-lg narbar-light ">
                             <a class="navbar-brand mr-auto" href="#">
                                TravelScope
                             </a>
@@ -696,7 +696,20 @@
     <script src="js/popper.min.js"></script>                          
     <script src="js/bootstrap.min.js"></script>             
     <script src="js/jquery.scrollTo.min.js"></script>           
-    
+    <script> 
+
+        $(function(){
+
+            $(window).on("scroll", function() {
+                if($(window).scrollTop() > 100) {
+                    $(".tm-top-bar").addClass("active");
+                } else {                    
+                 $(".tm-top-bar").removeClass("active");
+                }
+            });       
+        });
+
+    </script>             
 
 </body>
 </html>
